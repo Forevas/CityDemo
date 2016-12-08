@@ -15,14 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity" />
-        <activity android:name=".FourActivity" />
-        <activity android:name=".FiveActivity" />
-        <activity android:name=".MyScrollViewActivity" />
-        <activity android:name=".SevenActivity" />
         <activity android:name=".CityActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".WangYiActivity"></activity>
     </application>
 
 </manifest>

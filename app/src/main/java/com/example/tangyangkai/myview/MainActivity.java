@@ -1,45 +1,50 @@
 package com.example.tangyangkai.myview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.List;
 
-    private MySportView view;
 
-    private Button sportBtn, sportDownBtn;
+public class MainActivity extends AppCompatActivity implements MyRecyclerView.onGetListener {
+
+
+    private List<Integer> lists = new ArrayList<>();
+    private MyRecyclerView recyclerView;
+    private RecyclerAdapter adapter;
+    private LinearLayoutManager manager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initview();
+        initData();
+        initviews();
     }
 
-    private void initview() {
-        view = (MySportView) findViewById(R.id.sport_view);
-        view.setmTargetPercent(30);
-        sportBtn = (Button) findViewById(R.id.sport_btn);
-        sportBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                view.setNumber(40);
-            }
-        });
-        sportDownBtn = (Button) findViewById(R.id.sport_down_btn);
-        sportDownBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                view.setNumber(20);
-            }
-        });
+    private void initviews() {
+        recyclerView = (MyRecyclerView) findViewById(R.id.my_recycler);
+        adapter = new RecyclerAdapter(getApplicationContext(), lists);
+        manager = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(manager);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setListener(this);
 
     }
 
+    private void initData() {
+        for (int i = 1; i < 20; i++) {
+            lists.add(i);
+        }
+    }
 
+
+    @Override
+    public void getPosition(int position) {
+
+        Toast.makeText(getApplicationContext(), "现在是第" + String.valueOf(position + 1) + "项", Toast.LENGTH_SHORT).show();
+    }
 }

@@ -12,57 +12,19 @@
 
 
     <Button
-        android:id="@+id/first_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MySportView" />
-
-    <Button
-        android:id="@+id/second_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyScrollView" />
-
-    <Button
-        android:id="@+id/third_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyTestView" />
-
-    <Button
-        android:id="@+id/four_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyQQView" />
-
-    <Button
-        android:id="@+id/five_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyBesselView" />
-
-    <Button
-        android:id="@+id/six_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyScrollView" />
-
-
-    <Button
-        android:id="@+id/seven_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyColorView" />
-
-    <Button
         android:id="@+id/city_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MyCityView" />
+        android:text="城市导航列表" />
 
-
-
-
-
-
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="侧滑删除" />
+    <Button
+        android:id="@+id/wangyi_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网易栏目" />
 </LinearLayout>
