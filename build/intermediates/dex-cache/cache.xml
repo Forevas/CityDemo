@@ -1,2 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_eceb3c477b715898f3e633aee85b2e4e61f25a1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a9e097628c3571bed8e2ba392c57ff7596ae557">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7123750441d2521c332475edb3ed810d1a4f2dc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="22638f3f7507eed2ba3f139e28b96291f7d36457">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e3aa7ccf2c11103b7cea6a26731dc761f0a7b9cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_4fed9bc912fd280a6f468f72ec7f1ab0d6cae017/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/.gradle/caches/modules-2/files-2.1/com.github.promeg/tinypinyin/1.0.0/a48301534bbc8eea481f61fa8fbdee80eca49d15/tinypinyin-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a48301534bbc8eea481f61fa8fbdee80eca49d15">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/tinypinyin-1.0.0_6901fcdef841fbc5cf992c2564c441066971d38e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_a719882351750485c2d5cef6f729a7a0d10ec6bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_e515f4708be64a68a4c4839daddc79491c7fba89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.0_a809a10947c6874182a042f1419c04f4f454edd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_0a2b33491c54568839b1b1b0933cc1cf25a81569/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_613463e59160c9e94a4d618941e6e4cb146684fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/tangyangkai/Documents/github/MyRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_889cf8fa75828ace09cab461ca79ac0032e59a21/classes.dex" />
+    </item>
+
+</items>

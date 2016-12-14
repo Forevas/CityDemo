@@ -146,8 +146,8 @@ public class CityActivity extends Activity implements MySlideView.onTouchListene
                 break;
             }
         }
-        recyclerView.scrollToPosition(selectPosition);
-
+//        recyclerView.scrollToPosition(selectPosition);
+        scroll2Position(selectPosition);
     }
 
 
@@ -159,4 +159,16 @@ public class CityActivity extends Activity implements MySlideView.onTouchListene
     }
 
 
+    private void scroll2Position(int index) {
+        int firstPosition = layoutManager.findFirstVisibleItemPosition();
+        int lastPosition = layoutManager.findLastVisibleItemPosition();
+        if (index <= firstPosition) {
+            recyclerView.scrollToPosition(index);
+        } else if (index <= lastPosition) {
+            int top = recyclerView.getChildAt(index - firstPosition).getTop();
+            recyclerView.scrollBy(0, top);
+        } else {
+            recyclerView.scrollToPosition(index);
+        }
+    }
 }
